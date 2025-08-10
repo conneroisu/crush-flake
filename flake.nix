@@ -97,7 +97,7 @@ https://github.com/charmbracelet/crush/releases/tag/nightly
           description = "AI coding agent for the terminal";
           homepage = "https://github.com/charmbracelet/crush";
           license = licenses.mit; # Treating FSL-1.1-MIT as MIT for now
-          maintainers = with maintainers; ["connerohnesorge"];
+          maintainers = with maintainers; [connerohnesorge];
           platforms = platforms.unix ++ platforms.darwin;
         };
       };
