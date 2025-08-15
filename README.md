@@ -37,11 +37,11 @@ nix run github:conneroisu/crush-flake -- --help
 ### Latest Nightly Build
 
 ```bash
-# Install latest nightly build (updated 2025-08-14)
-nix profile install github:conneroisu/crush-flake#nightly-20250814-64e8235
+# Install latest nightly build (updated 2025-08-15)
+nix profile install github:conneroisu/crush-flake#nightly-20250815-5f67a58
 
 # Or run latest nightly directly
-nix run github:conneroisu/crush-flake#nightly-20250814-64e8235
+nix run github:conneroisu/crush-flake#nightly-20250815-5f67a58
 
 # View all available nightly tags
 nix flake show github:conneroisu/crush-flake --all-systems
